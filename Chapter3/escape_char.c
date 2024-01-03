@@ -1,35 +1,35 @@
-//// escape_char.c
-//// ×ªÒå×Ö·ûµÄÊ¹ÓÃ
-//#include <stdio.h>
-//
-//int main() {
-//
-//    char c;
-//
-//    // Ê¹ÓÃÍË¸ñ·û
-//    printf("backspace\b\b\b\b\b\n");
-//    c = 7;
-//    printf("backspace%c%c%c%c%c\n", c, c, c, c, c);
-//
-//    // Ê¹ÓÃ»»ĞĞ·û
-//    printf("I want to start a new line\nI succeed!\n");
-//    c = 10;
-//    printf("I want to start a new line%cI succeed!\n", c);
-//
-//    // Êä³öË«ÒıºÅ
-//    printf("fjx said: \"I love Ace!\"\n");
-//    c = 34;
-//    printf("fjx said: %cI love Ace!%c", c, c);
-//
-//    return 0;
-//
-//}
-//// Êä³ö
-//// backspace
-//// backspace
-//// I want to start a new line
-//// I succeed!
-//// I want to start a new line
-//// I succeed!
-//// fjx said : "I love Ace!"
-//// fjx said : "I love Ace!"
+// escape_char.c
+// è½¬ä¹‰å­—ç¬¦çš„ä½¿ç”¨
+#include <stdio.h>
+
+int main() {
+
+   char c;
+
+   // ä½¿ç”¨é€€æ ¼ç¬¦
+   printf("backspace\b\b\b\b\b\n");
+   c = 7;
+   printf("backspace%c%c%c%c%c\n", c, c, c, c, c);
+
+   // ä½¿ç”¨æ¢è¡Œç¬¦
+   printf("I want to start a new line\nI succeed!\n");
+   c = 10;
+   printf("I want to start a new line%cI succeed!\n", c);
+
+   // è¾“å‡ºåŒå¼•å·
+   printf("fjx said: \"I love Ace!\"\n");
+   c = 34;
+   printf("fjx said: %cI love Ace!%c", c, c);
+
+   return 0;
+
+}
+// è¾“å‡º
+// backspace
+// backspace
+// I want to start a new line
+// I succeed!
+// I want to start a new line
+// I succeed!
+// fjx said : "I love Ace!"
+// fjx said : "I love Ace!"

@@ -1,25 +1,25 @@
-//// char.c
-//// charÀàĞÍ±äÁ¿µÄÁ½ÖÖÊä³ö·½Ê½
-//#include <stdio.h>
-//
-//int main() {
-//
-//    char a = '1';
-//    char b = '$';
-//    char c = ' ';
-//
-//    // ·½Ê½Ò»£ºÊ¹ÓÃputcharº¯ÊıÊä³ö
-//    putchar(a);
-//    putchar(c);
-//    putchar(b);
-//    putchar('\n');
-//
-//    // ·½Ê½¶ş£ºÊ¹ÓÃprintfº¯ÊıÊä³ö
-//    printf("%c%c%c", a, c, b);
-//
-//    return 0;
-//
-//}
-//// Êä³ö
-//// 1 $ 
-//// 1 $
+// char.c
+// charç±»å‹å˜é‡çš„ä¸¤ç§è¾“å‡ºæ–¹å¼
+#include <stdio.h>
+
+int main() {
+
+   char a = '1';
+   char b = '$';
+   char c = ' ';
+
+   // æ–¹å¼ä¸€ï¼šä½¿ç”¨putcharå‡½æ•°è¾“å‡º
+   putchar(a);
+   putchar(c);
+   putchar(b);
+   putchar('\n');
+
+   // æ–¹å¼äºŒï¼šä½¿ç”¨printfå‡½æ•°è¾“å‡º
+   printf("%c%c%c", a, c, b);
+
+   return 0;
+
+}
+// è¾“å‡º
+// 1 $ 
+// 1 $

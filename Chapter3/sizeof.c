@@ -1,21 +1,21 @@
-//// sizeof.c
-//// sizeof¹Ø¼ü×ÖµÄ»ù´¡Ê¹ÓÃ£ºÅĞ¶ÏÊı¾İÀàĞÍÕ¼ÓÃµÄ×Ö½ÚÊı
-//#include <stdio.h>
-//
-//int main() {
-//
-//    printf("size of short: %llu\n", sizeof(short));
-//    printf("size of int: %llu\n", sizeof(int));
-//    printf("size of long: %llu\n", sizeof(long));
-//    printf("size of long long: %llu", sizeof(long long));
-//
-//    return 0;
-//
-//}
-//// Êä³ö
-//// size of short: 2
-//// size of int: 4
-//// size of long: 4
-//// size of long long: 8
-//
-//// sizeof¹Ø¼ü×ÖµÃµ½µÄÀàĞÍÊµ¼ÊÉÏÊÇÎŞ·ûºÅÕûÊı£¬¾ßÌåÀàĞÍ±àÒëÊ±VS»áÌáÊ¾
+// sizeof.c
+// sizeofå…³é”®å­—çš„åŸºç¡€ä½¿ç”¨ï¼šåˆ¤æ–­æ•°æ®ç±»å‹å ç”¨çš„å­—èŠ‚æ•°
+#include <stdio.h>
+
+int main() {
+
+   printf("size of short: %llu\n", sizeof(short));
+   printf("size of int: %llu\n", sizeof(int));
+   printf("size of long: %llu\n", sizeof(long));
+   printf("size of long long: %llu", sizeof(long long));
+
+   return 0;
+
+}
+// è¾“å‡º
+// size of short: 2
+// size of int: 4
+// size of long: 4
+// size of long long: 8
+
+// sizeofå…³é”®å­—å¾—åˆ°çš„ç±»å‹å®é™…ä¸Šæ˜¯æ— ç¬¦å·æ•´æ•°ï¼Œå…·ä½“ç±»å‹ç¼–è¯‘æ—¶VSä¼šæç¤º

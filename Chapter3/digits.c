@@ -1,38 +1,38 @@
-//// digits.c
-//// ÀûÓÃ¸ñÊ½¿ØÖÆ·û¿ØÖÆ¸¡µãÀàĞÍµÄÊä³öÊı×ÖÎ»Êı
-//#include <stdio.h>
-//
-//int main(void)
-//{
-//
-//    float number = 3852.99;
-//    printf("The number: %f\n", number);
-//
-//    // %.nfÏŞÖÆ±£ÁôµÄĞ¡ÊıÎ»Êı£¬ËÄÉáÎåÈë·¨
-//    printf("The number with 1 decimal places:%.1f\n", number);
-//    printf("The number with 4 decimal places:%.4f\n", number);
-//
-//    // %m.nfÏŞÖÆÊä³ö×Ü³¤¶ÈºÍ±£ÁôµÄĞ¡ÊıÎ»Êı
-//    // ÏÈ±£Áô×ã¹»µÄĞ¡ÊıÎ»Êı£¬Èç¹û×Ü³¤¶È³¬³ömÔò°´ÕÕÔ­À´µÄÕûÊı²¿·ÖÊä³ö
-//    printf("The number with a total width of 3 and 1 decimal places:%3.1f\n", number);
-//    printf("The number with a total width of 10 and 4 decimal places:%10.4f\n", number);
-//    printf("The number with a total width of 3 and 4 decimal places:%3.4f\n", number);
-//    printf("The number with a total width of 10 and 1 decimal places:%10.1f\n", number);
-//
-//    // %0m.nfÓë%m.nfµÄÇø±ğÊÇ°Ñ²»¹»²¹µÄ¿Õ¸ñÌæ»»³É0
-//    printf("The number with a total width of 10 and 4 decimal places:%010.4f\n", number);
-//    printf("The number with a total width of 10 and 1 decimal places:%010.1f", number);
-//
-//    return 0;
-//
-//}
-//// Êä³ö
-//// The number : 3852.989990
-//// The number with 1 decimal places:3853.0
-//// The number with 4 decimal places:3852.9900
-//// The number with a total width of 3 and 1 decimal places:3853.0
-//// The number with a total width of 10 and 4 decimal places: 3852.9900
-//// The number with a total width of 3 and 4 decimal places:3852.9900
-//// The number with a total width of 10 and 1 decimal places:    3853.0
-//// The number with a total width of 10 and 4 decimal places:03852.9900
-//// The number with a total width of 10 and 1 decimal places:00003853.0
+// digits.c
+// åˆ©ç”¨æ ¼å¼æ§åˆ¶ç¬¦æ§åˆ¶æµ®ç‚¹ç±»å‹çš„è¾“å‡ºæ•°å­—ä½æ•°
+#include <stdio.h>
+
+int main(void)
+{
+
+   float number = 3852.99;
+   printf("The number: %f\n", number);
+
+   // %.nfé™åˆ¶ä¿ç•™çš„å°æ•°ä½æ•°ï¼Œå››èˆäº”å…¥æ³•
+   printf("The number with 1 decimal places:%.1f\n", number);
+   printf("The number with 4 decimal places:%.4f\n", number);
+
+   // %m.nfé™åˆ¶è¾“å‡ºæ€»é•¿åº¦å’Œä¿ç•™çš„å°æ•°ä½æ•°
+   // å…ˆä¿ç•™è¶³å¤Ÿçš„å°æ•°ä½æ•°ï¼Œå¦‚æœæ€»é•¿åº¦è¶…å‡ºmåˆ™æŒ‰ç…§åŸæ¥çš„æ•´æ•°éƒ¨åˆ†è¾“å‡º
+   printf("The number with a total width of 3 and 1 decimal places:%3.1f\n", number);
+   printf("The number with a total width of 10 and 4 decimal places:%10.4f\n", number);
+   printf("The number with a total width of 3 and 4 decimal places:%3.4f\n", number);
+   printf("The number with a total width of 10 and 1 decimal places:%10.1f\n", number);
+
+   // %0m.nfä¸%m.nfçš„åŒºåˆ«æ˜¯æŠŠä¸å¤Ÿè¡¥çš„ç©ºæ ¼æ›¿æ¢æˆ0
+   printf("The number with a total width of 10 and 4 decimal places:%010.4f\n", number);
+   printf("The number with a total width of 10 and 1 decimal places:%010.1f", number);
+
+   return 0;
+
+}
+// è¾“å‡º
+// The number : 3852.989990
+// The number with 1 decimal places:3853.0
+// The number with 4 decimal places:3852.9900
+// The number with a total width of 3 and 1 decimal places:3853.0
+// The number with a total width of 10 and 4 decimal places: 3852.9900
+// The number with a total width of 3 and 4 decimal places:3852.9900
+// The number with a total width of 10 and 1 decimal places:    3853.0
+// The number with a total width of 10 and 4 decimal places:03852.9900
+// The number with a total width of 10 and 1 decimal places:00003853.0

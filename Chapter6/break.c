@@ -1,5 +1,5 @@
 // break.c
-// breakµÄÊ¹ÓÃ
+// breakçš„ä½¿ç”¨
 #include <stdio.h>
 
 int main()
@@ -18,5 +18,5 @@ int main()
     return 0;
 
 }
-// Êä³ö
+// ÃŠÃ¤Â³Ã¶
 // 12 

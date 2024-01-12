@@ -1,5 +1,5 @@
 // switch_without_break.c
-// case中不使用break
+// case涓笉浣跨敤break
 #include <stdio.h>
 
 int main() {
@@ -16,5 +16,5 @@ int main() {
     return 0;
 
 }
-// 输出：
+// 臉盲艂枚艁艧
 // x = 0x = 1

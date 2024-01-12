@@ -1,5 +1,5 @@
 // swap2.c
-// 两数交换方法2
+// 涓ゆ暟浜ゆ崲鏂规硶2
 #include <stdio.h>
 
 int main() {

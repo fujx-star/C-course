@@ -1,5 +1,5 @@
 // switch_default.c
-// switchÖĞdefaultµÄÊ¹ÓÃ
+// switchä¸­defaultçš„ä½¿ç”¨
 #include <stdio.h>
 
 int main() {
@@ -21,5 +21,5 @@ int main() {
     return 0;
 
 }
-// Êä³ö£º
+// ÃŠÃ¤Â³Ã¶Â£Âº
 // x is neither 1 nor 0

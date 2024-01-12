@@ -1,5 +1,5 @@
 // else_if.c
-// else ifµÄÊ¹ÓÃ
+// else ifçš„ä½¿ç”¨
 #include <stdio.h>
 
 int main() {
@@ -23,5 +23,5 @@ int main() {
     return 0;
 
 }
-// Êä³ö£º
+// ÃŠÃ¤Â³Ã¶Â£Âº
 // The point is in the first quadrant.

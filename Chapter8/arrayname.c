@@ -1,5 +1,5 @@
 // arrayname.c
-// 数组名的意义
+// 鏁扮粍鍚嶇殑鎰忎箟
 #include <stdio.h>
 
 int main() {
@@ -17,7 +17,7 @@ int main() {
 	return 0;
 
 }
-// 输出
+// 杈撳嚭
 // address : 0000001497D7F858
 // address : 0000001497D7F858
 // value : 10

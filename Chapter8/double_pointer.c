@@ -1,5 +1,5 @@
 // double_pointer.c
-// ¶ş¼¶Ö¸ÕëµÄÊ¹ÓÃ
+// äºŒçº§æŒ‡é’ˆçš„ä½¿ç”¨
 #include <stdio.h>
 
 int main() {
@@ -19,7 +19,7 @@ int main() {
 	return 0;
 
 }
-// Êä³ö
+// è¾“å‡º
 // Value of x : 0
 // Value of x using single pointer : 0
 // Value of x using double pointer : 0

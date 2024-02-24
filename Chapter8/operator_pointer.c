@@ -1,5 +1,5 @@
 // operator_pointer.c
-// È¡ÖµÔËËã·ûµÄÊ¹ÓÃ
+// å–å€¼è¿ç®—ç¬¦çš„ä½¿ç”¨
 #include <stdio.h>
 
 int main() {
@@ -15,7 +15,7 @@ int main() {
 	return 0;
 
 }
-// Êä³ö
+// è¾“å‡º
 // The value of x : 0
 // The address of x : 00000061B690F7D4
 // The value of x : 10
